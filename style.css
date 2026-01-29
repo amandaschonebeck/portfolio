@@ -426,7 +426,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: inherit;
+  background: inherit; 
   mix-blend-mode: difference;
   opacity: 0;
 }
@@ -1238,8 +1238,10 @@ text-transform: uppercase;
 }
 
 .glitch img:hover {
-  filter: invert(1) hue-rotate(180deg);
+  /*
+  filter: invert(1) hue-rotate(180deg);*/
   opacity: 0.9;
+  filter: blur(10px) hue-rotate(180deg) invert(1);
   
 }
 
@@ -2060,7 +2062,7 @@ footer {
         .loader-bar {
             width: 0;
             height: 100%;
-            background: #000;
+            background: #000;z-index: 99999999;
             animation: loadBar 2.5s ease forwards;
         }
 

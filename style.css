@@ -2062,7 +2062,7 @@ footer {
         .loader-bar {
             width: 0;
             height: 100%;
-            background: #000;z-index: 99999999;
+            background: #000;z-index: 99999999999;
             animation: loadBar 2.5s ease forwards;
         }
 

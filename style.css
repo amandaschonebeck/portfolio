@@ -640,6 +640,7 @@ padding-left: 12px;
             height: 4px;
             background: #ccc;
             overflow: hidden;
+               z-index: 999999999;
             margin-bottom: 30px;
             position: relative;
         }
@@ -648,6 +649,7 @@ padding-left: 12px;
             width: 0;
             height: 100%;
             background: #000;
+
             animation: loadBar 2.5s ease forwards;
         }
 
